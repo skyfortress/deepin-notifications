@@ -29,7 +29,6 @@ DWIDGET_USE_NAMESPACE
 
 static const QString BubbleStyleSheet = "QFrame#Background { "
                                         "background-color: rgba(0, 0, 0, 180);"
-                                        "border-radius: 4px;"
                                         "border: solid 1px white;"
                                         "}"
                                         "QLabel#Title {"
@@ -41,7 +40,7 @@ static const QString BubbleStyleSheet = "QFrame#Background { "
                                         "color: white;"
                                         "}";
 static const int ShadowWidth = 20;
-static const int BubbleWidth = 300;
+static const int BubbleWidth = 350;
 static const int BubbleHeight = 70;
 
 Bubble::Bubble(NotificationEntity *entity):
